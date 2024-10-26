@@ -1,0 +1,12 @@
+{
+    "users": [{
+        "id": 1,
+        "name": "Ronald A O d S",
+        "email": "ronalkd@gtoil.com"
+    },{
+        "id": 2,
+        "name": "Sabrina",
+        "email": "sabrinad@gtoil.com"
+    }
+    ]
+}
