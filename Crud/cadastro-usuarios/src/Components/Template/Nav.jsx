@@ -5,7 +5,14 @@ import React from "react"
 const nav = (props) => {
     return (
         <aside className="menu-area">
-            Navegação
+            <nav className="menu">
+                <a href="#/">
+                    <i className="fa fa-home"></i> Inicio
+                </a>
+                <a href="#/">
+                    <i className="fa fa-users"></i> Usuarios
+                </a>
+            </nav>
         </aside>
     )
 }

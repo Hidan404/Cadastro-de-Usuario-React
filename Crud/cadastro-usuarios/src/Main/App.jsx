@@ -1,3 +1,5 @@
+import "bootstrap/dist/css/bootstrap.min.css"
+import "font-awesome/css/font-awesome.min.css"
 import "./App.css"
 import React from "react"
 import Logo from "../Components/Template/logo"
@@ -10,7 +12,11 @@ const app = (props) => {
         <div className="App">
             <Logo />
             <Nav />
-            <Main />
+            <Main icon="home" title="inicio" subtitle="segundo projeto do cap Rreact">
+                <div className="display-4">Bem vindo</div>
+                <hr />
+                <p className="mb-0">Sistema de cadastro em react para demonstração de CRUD</p>
+            </Main>
             <Footer />
         </div>
     )
